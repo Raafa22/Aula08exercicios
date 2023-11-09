@@ -10,20 +10,21 @@ public class exercicio4 {
 
         Scanner leia = new Scanner(System.in);
 
-        System.out.print("numero1: ");
+        System.out.println("numero1: ");
         n1 = leia.nextFloat();
 
-        System.out.print("numero2: ");
+        System.out.println("numero2: ");
         n2 = leia.nextFloat();
 
-        System.out.print("numero3: ");
+        System.out.println("numero3: ");
         n3 = leia.nextFloat();
 
-        System.out.print("numero4: ");
+        System.out.println("numero4: ");
         n4 = leia.nextFloat();
 
         diferenca = (n1 * n2) - (n3 * n4);
         System.out.println("\nDiferença: " + diferenca);
+        
     }
 }
 		
